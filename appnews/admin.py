@@ -1,6 +1,5 @@
 from django.contrib import admin
-from core.models import Product
+from appnews.models import News
 
 # Register your models here.
-admin.site.register(Product)
-
+admin.site.register(News)
